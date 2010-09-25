@@ -1,0 +1,22 @@
+h1. New CodeIgniter Project
+Tired of downloading CI, changing application directory location and stuff every time? Check out this custom version with a checklist.
+It's just a way (at least for me) to speed up by few minutes the creation of a new CI project.
+It could also be useful to beginners, give it a look!
+
+h2. What's contained in here?
+"CodeIgniter":http://codeigniter.com/ v1.7.2, the popular open source PHP MVC framework made by EllisLab, with:
+*application directory at the same level of the system one
+*.htaccess file to remove the annoying index.php on URI
+*assets directory to better organize css, images and js scrips, "Eric Meyer's reset CSS":http://meyerweb.com/eric/tools/css/reset/ included
+*installation checklist instead of the welcome message
+*autoloaded common libraries and helpers
+*changed few configs like:
+**Global XSS filtering = TRUE
+**Session encrypt cookie = TRUE
+**Some custom project constants that could be useful
+
+h2. Instructions
+Download, rename the root directory with your project name, fire up your webserver, point your browser on the project URL and follow the steps. You know the rest :)
+
+h2. Credits
+This simple custom CI install has been automagically crafted by "Fabrizio Codello":http://twitter.com/Fabryz
